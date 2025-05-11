@@ -10,6 +10,7 @@ public class HoleDetector : MonoBehaviour
         {
             gameManager.AddPoint();
 
+
             // Optional: destroy the ball after scoring
             Destroy(other.gameObject);
         }
