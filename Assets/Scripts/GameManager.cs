@@ -18,12 +18,12 @@ public class GameManager : MonoBehaviour
     {
         score++;
         UpdateScoreUI();
-        if (score == 16)
-        {
-            NextLevelPanel.SetActive(true);
+        //if (score == 16)
+        //{
+            //NextLevelPanel.SetActive(true);
             //scoreText.gameObject.SetActive(false);
 
-        }
+        //}
     }
 
     void UpdateScoreUI()

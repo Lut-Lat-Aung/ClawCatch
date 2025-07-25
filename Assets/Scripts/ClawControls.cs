@@ -3,7 +3,7 @@ using UnityEngine;
 public class ClawControls : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float dropSpeed = 2f;
+    public float dropSpeed = 5f;
     public float dropDistance = 3f;
     public float minX = -5f;
     public float maxX = 5f;
